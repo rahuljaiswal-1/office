@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './Component/Navbar';
-import Home from './Component/Home';
+import Homeee from './Component/Homeee';
 import About from './Component/About';
 import Services from './Component/Services';
 import Solution from './Component/Solution';
@@ -20,7 +20,7 @@ function App() {
   <Router>
     <Navbar />
     <Routes>
-    <Route path="/home" element={<Home/>} />
+    <Route path="/homeee" element={<Homeee/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/services" element={<Services/>} />
     <Route path="/solution" element={<Solution/>} />

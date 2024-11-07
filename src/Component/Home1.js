@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Home1() {
   return (
@@ -6,12 +7,7 @@ function Home1() {
      <meta charSet="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <title>Web Development</title>
-     <style
-       dangerouslySetInnerHTML={{
-         __html:
-           "\n    .dropdown-content {\n      display: none;\n    }\n\n    .dropdown-content.active {\n      display: block;\n    }\n\n    .no-scroll {\n      overflow: hidden;\n    }\n  "
-       }}
-     />
+    
      
      <div className="container mx-auto p-8">
        <h1 className="text-4xl md:text-6xl font-bold text-start mb-12">
@@ -80,11 +76,11 @@ function Home1() {
            to build feature-rich, scalable, and secure web applications that align
            perfectly with your business objectives.
          </p>
-         <a href="/solution">
+         <Link to="/solution">
            <button className="border border-black rounded-full px-4 md:px-6 py-2 hover:bg-black hover:text-orange-400 transition duration-300">
              Check Our Solutions
            </button>
-         </a>
+         </Link>
        </div>
        <div data-testid="responsive-container-content" className="w-full md:w-1/4">
          <div

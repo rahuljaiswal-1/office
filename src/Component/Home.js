@@ -8,12 +8,7 @@ function home() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Geekyness - Your Partner in Innovative Web Solutions</title>
   <link href="./output.css" rel="stylesheet" />
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n            .dropdown-content {\n                display: none;\n            }\n\n            .dropdown-content.active {\n                display: block;\n            }\n\n            .no-scroll {\n                overflow: hidden;\n            }\n        "
-    }}
-  />
+ 
 
   <main className="container mx-auto px-4 py-8 block">
     <h1 className="text-4xl md:text-7xl font-sans pt-6 md:pt-14 font-bold">

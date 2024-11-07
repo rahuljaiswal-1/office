@@ -161,57 +161,53 @@ function MobileApp() {
       <br />
     </p>
   </div>
-  <div className="flex flex-col sm:flex-row justify-center items-center py-8 sm:py-16 space-y-8 sm:space-y-0 sm:space-x-8">
-    <div className="flex w-full max-w-md sm:max-w-6xl flip-box">
-      <div className="bg-gray-200 p-6 sm:p-8 text-center flex-1 h-64 sm:h-96 pt-16 sm:pt-32 flip-box-inner">
-        <div className="flip-box-front">
-          <h2 className="text-xl sm:text-2xl font-bold mb-4">
-            iOS Development
-          </h2>
-        </div>
-        <div className="flip-box-back">
-          <p className="text-sm pl-6 sm:pl-12">
-            Leveraging the power of Swift and Objective-C, we build robust and
-            visually appealing iOS apps that adhere to Apple's stringent design
-            guidelines and provide a delightful user experience.
-          </p>
-        </div>
+  <div className="flex flex-col md:flex-row justify-center items-center py-8 md:py-12 space-y-8 md:space-y-0 md:space-x-6 lg:space-x-8">
+  <div className="flex w-full max-w-xs md:max-w-sm lg:max-w-md flip-box">
+    <div className="bg-gray-200 p-6 md:p-6 lg:p-8 text-center flex-1 h-64 md:h-72 lg:h-80 pt-12 md:pt-16 lg:pt-20 flip-box-inner">
+      <div className="flip-box-front">
+        <h2 className="mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
+          iOS Development
+        </h2>
       </div>
-    </div>
-    <div className="flex w-full max-w-md sm:max-w-6xl flip-box">
-      <div className="bg-orange-400 p-6 sm:p-8 text-center flex-1 h-64 sm:h-96 pt-16 sm:pt-32 flip-box-inner">
-        <div className="flip-box-front">
-          <h2 className="text-xl sm:text-2xl font-bold mb-4">
-            Android Development
-          </h2>
-        </div>
-        <div className="flip-box-back">
-          <p className="text-sm pl-6 sm:pl-12">
-            Our Android developers are proficient in Java, Kotlin, and the
-            Android SDK, ensuring your apps are optimized for performance,
-            security, and seamless integration with the Android ecosystem.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div className="flex w-full max-w-md sm:max-w-6xl flip-box">
-      <div className="bg-gray-200 p-6 sm:p-8 text-center flex-1 h-64 sm:h-96 pt-16 sm:pt-32 flip-box-inner">
-        <div className="flip-box-front">
-          <h2 className="text-xl sm:text-2xl font-bold mb-4">
-            Cross-Platform Development
-          </h2>
-        </div>
-        <div className="flip-box-back">
-          <p className="text-sm pl-6 sm:pl-12">
-            For clients seeking cost-effective solutions and faster
-            time-to-market, we offer cross-platform development using
-            cutting-edge frameworks, enabling us to create apps that run
-            seamlessly on both iOS and Android platforms.
-          </p>
-        </div>
+      <div className="flip-box-back">
+        <p className="ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
+          Leveraging the power of Swift and Objective-C, we build robust and visually appealing iOS apps that adhere to Apple's stringent design guidelines and provide a delightful user experience.
+        </p>
       </div>
     </div>
   </div>
+
+  <div className="flex w-full max-w-xs md:max-w-sm lg:max-w-md flip-box">
+    <div className="bg-orange-400 p-6 md:p-6 lg:p-8 text-center flex-1 h-64 md:h-72 lg:h-80 pt-12 md:pt-16 lg:pt-20 flip-box-inner">
+      <div className="flip-box-front">
+        <h2 className="mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
+          Android Development
+        </h2>
+      </div>
+      <div className="flip-box-back">
+        <p className="ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
+          Our Android developers are proficient in Java, Kotlin, and the Android SDK, ensuring your apps are optimized for performance, security, and seamless integration with the Android ecosystem.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex w-full max-w-xs md:max-w-sm lg:max-w-md flip-box">
+    <div className="bg-gray-200 p-6 md:p-6 lg:p-8 text-center flex-1 h-64 md:h-72 lg:h-80 pt-12 md:pt-16 lg:pt-20 flip-box-inner">
+      <div className="flip-box-front">
+        <h2 className="mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
+          Cross-Platform Development
+        </h2>
+      </div>
+      <div className="flip-box-back">
+        <p className="ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
+          For clients seeking cost-effective solutions and faster time-to-market, we offer cross-platform development using cutting-edge frameworks, enabling us to create apps that run seamlessly on both iOS and Android platforms.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div className="bg-gray-200">
     {/* Development Process Heading */}
     <div className="text-center mt-8 p-6 sm:p-10">
@@ -219,36 +215,37 @@ function MobileApp() {
       <hr className="border-t-2 border-green-500 w-1/2 sm:w-1/4 mx-auto mt-2" />
     </div>
     {/* Process Steps */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-8 sm:mt-12 mx-4 sm:mx-16">
-      <div className="text-center process-step">
-        <h2 className="text-3xl sm:text-5xl font-bold">01</h2>
-        <p className="mt-4 text-base sm:text-lg">
-          Ideation and
-          <br />
-          Requirements Gathering
-        </p>
-      </div>
-      <div className="text-center process-step">
-        <h2 className="text-3xl sm:text-5xl font-bold">02</h2>
-        <p className="mt-4 text-base sm:text-lg">
-          Wireframing and
-          <br />
-          Prototyping
-        </p>
-      </div>
-      <div className="text-center process-step">
-        <h2 className="text-3xl sm:text-5xl font-bold">03</h2>
-        <p className="mt-4 text-base sm:text-lg">UI/UX Design</p>
-      </div>
-      <div className="text-center process-step p-8 sm:p-16">
-        <h2 className="text-3xl sm:text-5xl font-bold">04</h2>
-        <p className="mt-4 text-base sm:text-lg">Development and Testing</p>
-      </div>
-      <div className="text-center process-step p-8 sm:p-16">
-        <h2 className="text-3xl sm:text-5xl font-bold">05</h2>
-        <p className="mt-4 text-base sm:text-lg">Launch and Support</p>
-      </div>
-    </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mt-8 sm:mt-12 mx-4 sm:mx-12 md:mx-16">
+  <div className="text-center process-step p-4 md:p-6">
+    <h2 className="text-3xl md:text-4xl font-bold">01</h2>
+    <p className="mt-4 text-base md:text-lg">
+      Ideation and
+      <br />
+      Requirements Gathering
+    </p>
+  </div>
+  <div className="text-center process-step p-4 md:p-6">
+    <h2 className="text-3xl md:text-4xl font-bold">02</h2>
+    <p className="mt-4 text-base md:text-lg">
+      Wireframing and
+      <br />
+      Prototyping
+    </p>
+  </div>
+  <div className="text-center process-step p-4 md:p-6">
+    <h2 className="text-3xl md:text-4xl font-bold">03</h2>
+    <p className="mt-4 text-base md:text-lg">UI/UX Design</p>
+  </div>
+  <div className="text-center process-step p-6 md:p-8">
+    <h2 className="text-3xl md:text-4xl font-bold">04</h2>
+    <p className="mt-4 text-base md:text-lg">Development and Testing</p>
+  </div>
+  <div className="text-center process-step p-6 md:p-8">
+    <h2 className="text-3xl md:text-4xl font-bold">05</h2>
+    <p className="mt-4 text-base md:text-lg">Launch and Support</p>
+  </div>
+</div>
+
   </div>
   {/* Features Heading */}
   <div className="font-semibold text-3xl sm:text-4xl ml-4 sm:ml-12 mt-4 slide-left">

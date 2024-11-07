@@ -170,98 +170,98 @@ function AISolution() {
     }}
   />
   <div className="container mx-auto p-3">
-    <h1 className="ml-9 text-2xl md:text-3xl font-semibold questrial sans-serif mb-6">
-      AI Capability
-    </h1>
-    {/* First Row */}
-    <div className="flex flex-col lg:flex-row h-auto lg:h-96 m-2 lg:m-10 pt-4 lg:pt-16">
-      <section className="w-full lg:w-1/2 px-2 lg:px-20">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="bg-gray-200 flip-box-front">
-              <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-center m-6 lg:m-36">
-                Machine
-                <br />
-                Learning
-              </h1>
-            </div>
-            <ul className="bg-orange-400 flip-box-back list-disc list-inside space-y-2">
-              <div className="m-4 lg:m-32">
-                <li>Anomaly detection and fraud prevention</li>
-                <li>Predictive analytics and forecasting</li>
-                <li>Pattern recognition and clustering</li>
-                <li>Recommendation systems</li>
-              </div>
-            </ul>
-          </div>
+  <h1 className="text-center md:text-left ml-0 md:ml-9 text-2xl md:text-3xl font-semibold questrial sans-serif mb-6">
+    AI Capability
+  </h1>
+
+  {/* First Row */}
+  <div className="flex flex-col lg:flex-row h-auto lg:h-96 m-2 lg:m-10 pt-4 lg:pt-16">
+  <section className="w-full lg:w-1/2 px-4 md:px-6 lg:px-8 mt-4 lg:mt-0">
+    <div className="flip-box h-full flex flex-col justify-center items-center">
+      <div className="flip-box-inner h-full flex flex-col justify-center items-center">
+        <div className="bg-gray-200 flip-box-front p-6 sm:p-8 lg:p-12 flex justify-center items-center">
+          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-4 text-center">
+            Machine
+            <br />
+            Learning
+          </h1>
         </div>
-      </section>
-      <section className="w-full lg:w-1/2 px-2 lg:px-8 mt-4 lg:mt-0">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="bg-orange-400 flip-box-front">
-              <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-center m-6 lg:m-36">
-                Natural Language
-                <br />
-                Processing NLP
-              </h1>
-            </div>
-            <ul className="bg-orange-400 flip-box-back list-disc list-inside space-y-2">
-              <div className="m-4 lg:m-32">
-                <li>Language translation and speech recognition</li>
-                <li>Text classification and summarization</li>
-                <li>Chatbots and conversational AI</li>
-                <li>Sentiment analysis</li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <ul className="bg-gray-200 flip-box-back list-disc list-inside p-6 sm:p-8 lg:p-12 space-y-2 text-center flex-auto justify-center items-center">
+          <li className='pt-16'>Anomaly detection and fraud prevention</li>
+          <li>Predictive analytics and forecasting</li>
+          <li>Pattern recognition and clustering</li>
+          <li>Recommendation systems</li>
+        </ul>
+      </div>
     </div>
-    {/* Second Row */}
-    <div className="flex flex-col lg:flex-row h-auto lg:h-96 m-2 lg:m-10">
-      <section className="w-full lg:w-1/2 px-2 lg:px-20">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="bg-gray-200 flip-box-front">
-              <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-center m-6 lg:m-36">
-                AI-Powered
-                <br />
-                Automation
-              </h1>
-            </div>
-            <ul className="flip-box-back list-disc list-inside space-y-2">
-              <div className="m-4 lg:m-32">
-                <li>Robotic Process Automation (RPA)</li>
-                <li>Intelligent document processing</li>
-                <li>Workflow optimization</li>
-              </div>
-            </ul>
-          </div>
+  </section>
+
+  <section className="w-full lg:w-1/2 px-4 md:px-6 lg:px-8 mt-4 lg:mt-0">
+    <div className="flip-box h-full flex flex-col justify-center items-center">
+      <div className="flip-box-inner h-full flex flex-col justify-center items-center">
+        <div className="bg-orange-400 flip-box-front p-6 sm:p-8 lg:p-12 flex justify-center items-center">
+          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-4 text-center">
+            Natural Language
+            <br />
+            Processing (NLP)
+          </h1>
         </div>
-      </section>
-      <section className="w-full lg:w-1/2 px-2 lg:px-8 mt-4 lg:mt-0">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="bg-orange-400 flip-box-front">
-              <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-center m-6 lg:m-36">
-                Advanced
-                <br />
-                AI Applications
-              </h1>
-            </div>
-            <ul className="bg-orange-400 flip-box-back list-disc list-inside space-y-2">
-              <div className="m-4 lg:m-32">
-                <li>Reinforcement learning for decision-making systems</li>
-                <li>Computer vision for facial recognition and OCR</li>
-                <li>Generative AI for content creation</li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <ul className="bg-orange-400 flip-box-back list-disc list-inside p-6 sm:p-8 lg:p-12 space-y-2 text-center flex-auto justify-center items-center">
+          <li className='pt-16'>Language translation and speech recognition</li>
+          <li>Text classification and summarization</li>
+          <li>Chatbots and conversational AI</li>
+          <li>Sentiment analysis</li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </section>
+</div>
+
+
+
+  {/* Second Row */}
+  <div className="flex flex-col lg:flex-row h-auto lg:h-96 m-2 lg:m-10">
+  <section className="w-full lg:w-1/2 px-4 md:px-8 lg:px-8 mt-4 lg:mt-0">
+    <div className="flip-box h-full flex flex-col justify-center items-center">
+      <div className="flip-box-inner h-full flex flex-col justify-center items-center">
+        <div className="bg-orange-400 flip-box-front p-6 sm:p-8 lg:p-12 flex justify-center items-center">
+          <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-4 text-center">
+            AI-Powered
+            <br />
+            Automation
+          </h1>
+        </div>
+        <ul className="bg-orange-400 flip-box-back list-disc list-inside p-6 sm:p-8 lg:p-12 space-y-2 text-center flex-auto justify-center items-center">
+          <li className='pt-16'>Robotic Process Automation (RPA)</li>
+          <li>Intelligent document processing</li>
+          <li>Workflow optimization</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section className="w-full lg:w-1/2 px-4 md:px-8 lg:px-8 mt-4 lg:mt-0">
+    <div className="flip-box h-full flex flex-col justify-center items-center">
+      <div className="flip-box-inner h-full flex flex-col justify-center items-center">
+        <div className="bg-gray-200 flip-box-front p-6 sm:p-8 lg:p-12 flex justify-center items-center">
+          <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-4 text-center">
+            Advanced
+            <br />
+            AI Applications
+          </h1>
+        </div>
+        <ul className="bg-gray-200 flip-box-back list-disc list-inside p-6 sm:p-8 lg:p-12 space-y-2 text-center flex-auto justify-center items-center">
+          <li className='pt-16'>Reinforcement learning for decision-making systems</li>
+          <li>Computer vision for facial recognition and OCR</li>
+          <li>Generative AI for content creation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+</div>
+
   {/*Use Cases*/}
   <div className="container mx-auto m-4 sm:m-14 pl-6 ">
     <h1 className="text-xl sm:text-2xl lg:text-3xl madefor-text font-semibold mb-4 shadow hover:shadow-lg">

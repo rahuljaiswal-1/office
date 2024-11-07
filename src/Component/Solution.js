@@ -8,36 +8,27 @@ function Solution() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Geekyness - Your Partner in Innovative Web Solutions</title>
   <link href="./output.css" rel="stylesheet" />
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n    .dropdown-content {\n      display: none;\n    }\n\n    .dropdown-content.active {\n      display: block;\n    }\n\n    .no-scroll {\n      overflow: hidden;\n    }\n  "
-    }}
-  />
+ 
   
   <section className="bg-gray-100">
-    <div className="max-w-4xl mx-auto py-16 px-4 sm:px-2">
-      <h2 className="animate-text text-3xl sm:text-4xl md:text-[50px] font-bold mb-4">
-        Our Solutions
-      </h2>
-      <p className="animate-text text-xl sm:text-2xl md:text-3xl font-dark mb-6">
-        Helping you make the right decision.
-      </p>
-      <p className="animate-text text-base sm:text-lg md:text-xl max-w-2xl">
-        This is the space to introduce the Services
-        <br className="block sm:hidden" /> section. Briefly describe the
-        <br />
-        types of services offered and highlight any
-        <br className="block sm:hidden" /> special benefits or features.
-      </p>
-    </div>
-  </section>
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n          .animate-text {\n            white-space: nowrap;\n            overflow: hidden;\n            width: 0;\n            animation: animate-text 5s forwards;\n          }\n\n          @keyframes animate-text {\n            0% {\n              width: 0;\n            }\n\n            100% {\n              width: 100%;\n            }\n          }\n        "
-    }}
-  />
+  <div className="max-w-4xl mx-auto py-8 px-4 sm:py-16 sm:px-6">
+    <h2 className="animate-text text-2xl sm:text-3xl md:text-[50px] font-bold mb-4 text-center sm:text-left">
+      Our Solutions
+    </h2>
+    <p className="animate-text text-lg sm:text-xl md:text-2xl font-medium mb-4 text-center sm:text-left">
+      Helping you make the right decision.
+    </p>
+    <p className="animate-text text-base sm:text-lg md:text-xl max-w-2xl text-center sm:text-left">
+      This is the space to introduce the Services
+      <br className="block sm:hidden" /> section. Briefly describe the
+      <br />
+      types of services offered and highlight any
+      <br className="block sm:hidden" /> special benefits or features.
+    </p>
+  </div>
+</section>
+
+ 
   <section className="bg-gray-100 py-16">
     <div className="container mx-auto px-4">
       <div className="m-8 grid grid-cols-1 md:grid-cols-2 gap-6">

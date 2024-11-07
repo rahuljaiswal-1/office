@@ -19,30 +19,16 @@ function App() {
     setActiveDropdown(activeDropdown === dropdownId ? null : dropdownId);
   };
   return (
-    <div>
+    <div> 
     {/* Header CSS for stickiness */}
-    <style
-      dangerouslySetInnerHTML={{
-        __html: `
-          .sticky-navbar {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-          }
-          .content-padding {
-            padding-top: 5rem; /* Adjust to header height */
-          }
-        `,
-      }}
-    />
+   
 
       <header className="bg-orange-400 sticky-navbar text-white p-4 h-20">
 
         <nav className=" flex justify-between items-center ">
           {/* Navigation as */}
           <div className="flex space-x-4 text-black hidden md:flex">
-            <Link to="/home" className="pl-12 hover:text-white">Home</Link>
+            <Link to="/homeee" className="pl-12 hover:text-white">Home</Link>
             <Link to="/about" className="pl-4 hover:text-white">About</Link>
             <div className="relative group">
               <Link to="/services">

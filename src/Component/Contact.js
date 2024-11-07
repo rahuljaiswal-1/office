@@ -8,20 +8,6 @@ export default function Contact() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Geekyness - Your Partner in Innovative Web Solutions</title>
   <link href="./output.css" rel="stylesheet" />
-  <style
-    dangerouslySetInnerjsx={{
-      __html: "\n  html,body{\n    overflow-x: hidden;\n  }\n"
-    }}
-  />
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-
-
-
-        "\n    .dropdown-content {\n      display: none;\n    }\n\n    .dropdown-content.active {\n      display: block;\n    }\n\n    .no-scroll {\n      overflow: hidden;\n    }\n  "
-    }}
-  />
   
   <section className="max-w-4xl mx-auto p-6">
     <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
