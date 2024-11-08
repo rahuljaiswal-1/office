@@ -28,7 +28,7 @@ function App() {
         <nav className=" flex justify-between items-center ">
           {/* Navigation as */}
           <div className="flex space-x-4 text-black hidden md:flex">
-            <Link to="/homeee" className="pl-12 hover:text-white">Home</Link>
+            <Link to="/" className="pl-12 hover:text-white">Home</Link>
             <Link to="/about" className="pl-4 hover:text-white">About</Link>
             <div className="relative group">
               <Link to="/services">
