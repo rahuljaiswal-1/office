@@ -1,9 +1,9 @@
 import React from 'react'
-import { GiDigitalTrace } from "react-icons/gi";
+import { BiLogoReact } from "react-icons/bi";
 
 function About() {
   return (
-    <div>
+    <div className='overflow-x-hidden ' >
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Geekyness - Your Partner in Innovative Web Solutions</title>
@@ -19,7 +19,7 @@ function About() {
           </p>
           <h2 className="animate-text mt-16 text-4xl font-normal slide-left">Our Team</h2>
         </div>
-        <style dangerouslySetInnerHTML={{__html: "\n        .animate-down-to-up {\n          animation: down-to-up 2s ease-out;\n        }\n\n        @keyframes down-to-up {\n          0% {\n            transform: translateY(100px);\n          }\n\n          100% {\n            transform: translateY(0);\n          }\n        }\n      " }} />
+        <style dangerouslySetInnerHTML={{__html: "\n  overflow: hidden;\n  .animate-down-to-up {\n          animation: down-to-up 2s ease-out;\n        }\n\n        @keyframes down-to-up {\n          0% {\n            transform: translateY(100px);\n          }\n\n          100% {\n            transform: translateY(0);\n          }\n        }\n      " }} />
         <div className="mt-32 max-w-6xl mx-auto py-12">
           <div className="flex animate-down-to-up flex-wrap justify-between">
             <div className="bg-black text-white p-6  w-full md:w-1/4">
@@ -35,7 +35,8 @@ function About() {
               <p className="mt-2 text-sm">Focuses on business growth and service expansion, leveraging his expertise in business management and digital marketing.</p>
             </div>
             <div className="bg-black text-white p-6  w-full md:w-1/4">
-              <img alt="Portrait of Shadia Khan" className="w-full h-48 object-cover rounded-t-lg" height={300} src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-CmyNVOGg66HBaIKesFcg5fnf.png?st=2024-10-01T08%3A08%3A56Z&se=2024-10-01T10%3A08%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-01T01%3A50%3A25Z&ske=2024-10-02T01%3A50%3A25Z&sks=b&skv=2024-08-04&sig=HIwMa5vcpHg9p%2Bnio6GkiNcaY%2BU48MSPH2WMu1pkViU%3D" width={300} />
+              <img alt="Portrait of Shadia Khan" className="w-full h-48 object-cover rounded-t-lg" height={300} src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-CmyNVOGg66HBaIKesFcg5fnf.png?st=2024-10-01T08%3A08%3A56Z&se=2024-10-01T10%3A08%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=
+              d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-01T01%3A50%3A25Z&ske=2024-10-02T01%3A50%3A25Z&sks=b&skv=2024-08-04&sig=HIwMa5vcpHg9p%2Bnio6GkiNcaY%2BU48MSPH2WMu1pkViU%3D" width={300} />
               <h2 className="text-xl font-bold mt-4">Shadia Khan.</h2>
               <p className="text-sm font-semibold">Talent Acquisition Specialist</p>
               <p className="mt-2 text-sm">Identifies and recruits top talent, ensuring Geekyness attracts skilled and passionate individuals to drive company success.</p>
@@ -56,8 +57,9 @@ function About() {
               <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
                 {/* Icon, visible only on larger screens */}
                 <div className="hidden sm:block w-1/4">
-                <div className='m-2 text-8xl'>              
-                    <GiDigitalTrace />
+                <div className='m-4 text-9xl'>              
+                    <BiLogoReact />
+                    
                 </div>
 
                 </div>
@@ -98,7 +100,7 @@ function About() {
               </div>
             </div>
           </section>
-          <section className=" font-serif max-w-4xl mx-auto py-8 sm:py-12 md:py-16 px-4">
+          <section className="max-w-4xl mx-auto py-8 sm:py-12 md:py-16 px-4">
   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 sm:mb-10 md:mb-12">
     We've Been Covered
   </h2>
@@ -113,7 +115,7 @@ function About() {
       prom<span className="relative">o<span className="absolute -top-1 right-0 text-xs">☀</span></span>rning
     </div>
   </div>
-         </section>
+</section>
 
           <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">

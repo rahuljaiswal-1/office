@@ -8,7 +8,7 @@ function Footer() {
   <div className="max-w-7xl mx-auto">
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
       <div className="space-y-2">
-        <Link to="/home" className="block text-green-600 hover:underline">
+        <Link to="/homee" className="block text-green-600 hover:underline">
           Home
         </Link>
         <Link to="/about" className="block text-gray-600 hover:underline">

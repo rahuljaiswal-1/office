@@ -7,136 +7,13 @@ function MobileApp() {
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mobile App Development</title>
+  <div className='overflow-x-hidden ' >
   <style
     dangerouslySetInnerHTML={{
       __html:
         "\n         html,body\n         {\n        overflow-x: hidden;\n         }\n  section {\n    font-family: Arial, Helvetica, sans-serif;\n  }\n\n  .flip-box {\n    background-color: transparent;\n    width: 600px;\n    /* border: 1px solid #f1f1f1; */\n    height: 350px;\n    perspective: 1000px;\n  }\n\n  .flip-box-inner {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    transition: transform 0.8s;\n    transform-style: preserve-3d;\n  }\n\n  .flip-box:hover .flip-box-inner {\n    transform: rotateY(180deg);\n  }\n\n  .flip-box-front, .flip-box-back {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n  }\n\n  .flip-box-front {\n    color: black;\n  }\n\n  .flip-box-back {\n    color: black;\n    transform: rotateY(180deg);\n  }\n    "
     }}
   />
-  {/* <header className="bg-orange-400 text-white p-4 h-20">
-    <nav className="flex justify-between items-center">
-      <div className="flex space-x-4 text-black">
-        <a href="home.html" className="hover:text-white">
-          Home
-        </a>
-        <a href="about.html" className="hover:text-white">
-          About
-        </a>
-        <div className="relative group">
-          <a href="servicies.html">
-            <button
-              className="hover:text-white rounded-md focus:outline-none"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Services
-            </button>
-          </a>
-          <div className="absolute left-0 mt-2 w-48 bg-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto z-10">
-            <a href="servicies.html"></a>
-            <a
-              href="#section1"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Web Development
-            </a>
-            <a
-              href="#section2"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Mobile App Development
-            </a>
-            <a
-              href="#section3"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Desktop App Development
-            </a>
-            <a
-              href="#section4"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              AI Solution
-            </a>
-            <a
-              href="#section5"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Digital Marketing
-            </a>
-          </div>
-        </div>
-        <div className="relative group">
-          <a href="solutions.html">
-            <button
-              className="hover:text-white rounded-md focus:outline-none"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Solution
-            </button>
-          </a>
-          <div className="absolute left-0 mt-2 w-48 bg-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto z-10">
-            <a href="solutions.html"></a>
-            <a
-              href="#section6"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Web Development
-            </a>
-            <a
-              href="#section7"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Mobile App Development
-            </a>
-            <a
-              href="#section8"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Desktop App Development
-            </a>
-            <a
-              href="#section9"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              AI Solution
-            </a>
-            <a
-              href="#section10"
-              className="block px-4 py-2 text-white hover:bg-white hover:text-black"
-            >
-              Digital Marketing
-            </a>
-          </div>
-        </div>
-        <a href="contact.html" className="hover:text-white">
-          Contact
-        </a>
-      </div>
-      <div className="flex items-center space-x-2">
-        <img
-          src="https://static.wixstatic.com/media/fe4a13_736aa623bfaf42aea1a898bebb96a689~mv2.png/v1/fill/w_135,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/geekyness%20(10).png"
-          alt="Geekyness Logo"
-          className="h-auto"
-        />
-      </div>
-      <div className="flex space-x-4 text-black underline">
-        <a href="#" className="hover:text-white">
-          LinkedIn
-        </a>
-        <a href="#" className="hover:text-white">
-          Instagram
-        </a>
-        <a href="#" className="hover:text-white">
-          Facebook
-        </a>
-        <a href="#" className="hover:text-white">
-          X
-        </a>
-      </div>
-    </nav>
-  </header> */}
   <style
     dangerouslySetInnerHTML={{
       __html:
@@ -144,11 +21,11 @@ function MobileApp() {
     }}
   />
   <div className="container m-4 sm:m-8 lg:m-14">
-    <h1 className="text-6xl questrial sans-serif mb-8 slide-left">
+    <h1 className="text-7xl font-serif mb-8 slide-left">
       Mobile
       <br /> Application
     </h1>
-    <p className="slide-left paragraph-responsive text-xs sm:text-lg lg:text-[20px] mb-4 sm:mb-6 mobile-slide-left">
+    <p className="slide-left font-serif paragraph-responsive text-xs sm:text-lg lg:text-[20px] mb-4 sm:mb-6 mobile-slide-left">
       At Geekyness, we specialize in developing sea mless and intuitive mobile{" "}
       <br />
       applications across all major platforms, including iOS, Android, and Cross
@@ -165,12 +42,12 @@ function MobileApp() {
   <div className="flex w-full max-w-xs md:max-w-sm lg:max-w-md flip-box">
     <div className="bg-gray-200 p-6 md:p-6 lg:p-8 text-center flex-1 h-64 md:h-72 lg:h-80 pt-12 md:pt-16 lg:pt-20 flip-box-inner">
       <div className="flip-box-front">
-        <h2 className="mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
+        <h2 className="font-serif mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
           iOS Development
         </h2>
       </div>
       <div className="flip-box-back">
-        <p className="ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
+        <p className="font-serif ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
           Leveraging the power of Swift and Objective-C, we build robust and visually appealing iOS apps that adhere to Apple's stringent design guidelines and provide a delightful user experience.
         </p>
       </div>
@@ -180,12 +57,12 @@ function MobileApp() {
   <div className="flex w-full max-w-xs md:max-w-sm lg:max-w-md flip-box">
     <div className="bg-orange-400 p-6 md:p-6 lg:p-8 text-center flex-1 h-64 md:h-72 lg:h-80 pt-12 md:pt-16 lg:pt-20 flip-box-inner">
       <div className="flip-box-front">
-        <h2 className="mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
+        <h2 className="font-serif mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
           Android Development
         </h2>
       </div>
       <div className="flip-box-back">
-        <p className="ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
+        <p className="font-serif ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
           Our Android developers are proficient in Java, Kotlin, and the Android SDK, ensuring your apps are optimized for performance, security, and seamless integration with the Android ecosystem.
         </p>
       </div>
@@ -195,12 +72,12 @@ function MobileApp() {
   <div className="flex w-full max-w-xs md:max-w-sm lg:max-w-md flip-box">
     <div className="bg-gray-200 p-6 md:p-6 lg:p-8 text-center flex-1 h-64 md:h-72 lg:h-80 pt-12 md:pt-16 lg:pt-20 flip-box-inner">
       <div className="flip-box-front">
-        <h2 className="mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
+        <h2 className="font-serif mt-16 mr-14 text-lg md:text-xl lg:text-2xl font-bold mb-4">
           Cross-Platform Development
         </h2>
       </div>
       <div className="flip-box-back">
-        <p className="ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
+        <p className="font-serif ml-8 text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8">
           For clients seeking cost-effective solutions and faster time-to-market, we offer cross-platform development using cutting-edge frameworks, enabling us to create apps that run seamlessly on both iOS and Android platforms.
         </p>
       </div>
@@ -211,82 +88,82 @@ function MobileApp() {
   <div className="bg-gray-200">
     {/* Development Process Heading */}
     <div className="text-center mt-8 p-6 sm:p-10">
-      <h1 className="text-2xl sm:text-3xl font-bold">Development Process</h1>
+      <h1 className="font-serif text-2xl sm:text-3xl font-bold">Development Process</h1>
       <hr className="border-t-2 border-green-500 w-1/2 sm:w-1/4 mx-auto mt-2" />
     </div>
     {/* Process Steps */}
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mt-8 sm:mt-12 mx-4 sm:mx-12 md:mx-16">
   <div className="text-center process-step p-4 md:p-6">
-    <h2 className="text-3xl md:text-4xl font-bold">01</h2>
-    <p className="mt-4 text-base md:text-lg">
+    <h2 className="font-serif text-3xl md:text-4xl font-bold">01</h2>
+    <p className="font-serif mt-4 text-base md:text-lg">
       Ideation and
       <br />
       Requirements Gathering
     </p>
   </div>
   <div className="text-center process-step p-4 md:p-6">
-    <h2 className="text-3xl md:text-4xl font-bold">02</h2>
-    <p className="mt-4 text-base md:text-lg">
+    <h2 className="font-serif text-3xl md:text-4xl font-bold">02</h2>
+    <p className="font-serif mt-4 text-base md:text-lg">
       Wireframing and
       <br />
       Prototyping
     </p>
   </div>
   <div className="text-center process-step p-4 md:p-6">
-    <h2 className="text-3xl md:text-4xl font-bold">03</h2>
-    <p className="mt-4 text-base md:text-lg">UI/UX Design</p>
+    <h2 className="font-serif text-3xl md:text-4xl font-bold">03</h2>
+    <p className="font-serif mt-4 text-base md:text-lg">UI/UX Design</p>
   </div>
   <div className="text-center process-step p-6 md:p-8">
-    <h2 className="text-3xl md:text-4xl font-bold">04</h2>
-    <p className="mt-4 text-base md:text-lg">Development and Testing</p>
+    <h2 className="font-serif text-3xl md:text-4xl font-bold">04</h2>
+    <p className="font-serif mt-4 text-base md:text-lg">Development and Testing</p>
   </div>
   <div className="text-center process-step p-6 md:p-8">
-    <h2 className="text-3xl md:text-4xl font-bold">05</h2>
-    <p className="mt-4 text-base md:text-lg">Launch and Support</p>
+    <h2 className="font-serif text-3xl md:text-4xl font-bold">05</h2>
+    <p className="font-serif mt-4 text-base md:text-lg">Launch and Support</p>
   </div>
 </div>
 
   </div>
   {/* Features Heading */}
   <div className="font-semibold text-3xl sm:text-4xl ml-4 sm:ml-12 mt-4 slide-left">
-    <h1>Features</h1>
+    <h1 className='font-serif '>Features</h1>
   </div>
   {/* Features List */}
   <div className="max-w-full sm:max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 px-4 mt-8 sm:mt-14 slide-left">
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       User Authentication &amp; Authorization
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       Real-time Data Synchronization
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       In-App Purchases and Subscriptions
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       Geolocation and Mapping Integration
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       Social Media Integration
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       Augmented Reality (AR) &amp; Virtual Reality (VR)
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       Machine Learning &amp; Artificial Intelligence
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       Internet of Things (IoT) Integration
     </div>
-    <div className="bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
+    <div className="font-serif bg-orange-400 text-center py-3 sm:py-4 rounded-full text-black hover:bg-gray-200">
       Push Notifications
     </div>
   </div>
   {/* Success Stories Section */}
   <div className="container mx-auto px-4 py-8 mt-8 sm:ml-9">
     <h1 className="text-3xl sm:text-4xl font-bold mb-4">
-      <span className="border-b-4 border-black">Success Stories</span>
+      <span className="font-serif  border-b-4 border-black">Success Stories</span>
     </h1>
-    <p className="text-base sm:text-lg leading-relaxed mt-4 sm:mt-9">
+    <p className="font-serif text-base sm:text-lg leading-relaxed mt-4 sm:mt-9">
       Our portfolio showcases a diverse range of successful mobile app
       development projects across various industries, from e-commerce and
       fintech to healthcare and entertainment. Explore our case studies and
@@ -294,100 +171,62 @@ function MobileApp() {
       mobile goals, drive user engagement, and unlock new revenue streams.
     </p>
   </div>
-  <div className="bg-gray-100">
-    <div className="container sm:m-10 p-4 sm:p-8">
-      <h1 className="text-base sm:text-lg font-semibold mb-4">Pricing</h1>
-      <ul className="text-sm sm:text-base list-disc pl-5 mb-8">
-        <li>
-          All illustrations are customized to every project’s needs/specs, and
-          our pricing methods reflect that. We offer flexible pricing options
-          tailored to your specific needs, including:
-        </li>
-        <li>Time-based: Pricing based on the time spent on the project.</li>
-        <li>
-          Project-based: Fixed price for the entire project, regardless of time
-          spent.
-        </li>
-        <li>
-          Revisions: Pricing for any additional revisions or changes beyond the
-          initial project scope.
-        </li>
-        <li>
-          Extras: Pricing for any additional services or add-ons requested
-          during the project.
-        </li>
-        <li>
-          We believe in keeping our pricing methods detailed and structured to
-          reflect everything that you are getting along the way.
-        </li>
-      </ul>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
-        {/* Sketches */}
-        <div className="transition duration-150 ease-out hover:ease-in bg-orange-400 p-4 sm:p-8 hover:bg-orange-300 relative">
-          <div className="absolute top-2 left-2">
-            <div className="h-1 w-6 sm:w-8 bg-black mb-2" />
-            <div className="h-1 w-3 sm:w-4 bg-black" />
-          </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2">Sketches</h2>
-          <p className="text-xs sm:text-sm mb-4">
-            Price will vary for every project based on the content and
-            background of the work. Additional details may change if more
-            material and work needs to get done.
-          </p>
-          <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 text-4xl sm:text-6xl font-bold">
-            1
-          </div>
-        </div>
-        {/* Illustrations */}
-        <div className="bg-orange-400 p-4 sm:p-8 hover:bg-orange-300 relative">
-          <div className="absolute top-2 left-2">
-            <div className="h-1 w-6 sm:w-8 bg-black mb-2" />
-            <div className="h-1 w-3 sm:w-4 bg-black" />
-          </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2">
-            Illustrations
-          </h2>
-          <p className="text-xs sm:text-sm mb-4">
-            Price will vary for every project based on the content and
-            background of the work. Additional details may change if more
-            material and work needs to get done.
-          </p>
-          <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 text-4xl sm:text-6xl font-bold">
-            2
-          </div>
-        </div>
-        {/* Renders */}
-        <div className="bg-orange-400 p-4 sm:p-8 hover:bg-orange-300 relative">
-          <div className="absolute top-2 left-2">
-            <div className="h-1 w-6 sm:w-8 bg-black mb-2" />
-            <div className="h-1 w-3 sm:w-4 bg-black" />
-          </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2">Renders</h2>
-          <p className="text-xs sm:text-sm mb-4">
-            Price will vary for every project based on the content and
-            background of the work. Additional details may change if more
-            material and work needs to get done.
-          </p>
-          <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 text-4xl sm:text-6xl font-bold">
-            3
-          </div>
-        </div>
-        {/* 3D Art */}
-        <div className="bg-orange-400 p-4 sm:p-8 hover:bg-orange-300 relative">
-          <div className="absolute top-2 left-2">
-            <div className="h-1 w-6 sm:w-8 bg-black mb-2" />
-            <div className="h-1 w-3 sm:w-4 bg-black" />
-          </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2">3D Art</h2>
-          <p className="text-xs sm:text-sm mb-4">
-            Price will vary for every project based on the content and
-            background of the work. Additional details may change if more
-            material and work needs to get done.
-          </p>
-          <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 text-4xl sm:text-6xl font-bold">
-            4
-          </div>
-        </div>
+  <div className="container bg-gray-100 mx-auto py-8">
+    <h1 className="m-12 text-3xl font-serif font-bold mb-6">Pricing</h1>
+    <div className="m-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <p> At Geekyness, we understand that every project is unique, and our
+           pricing model reflects that. We offer flexible pricing options tailored
+           to your specific needs, including:</p>
+          
+            <ul className="list-disc list-inside ml-4">
+              <li>Fixed Price: For projects with well-defined requirements and scope.</li>
+              <li>Time and Materials: For projects with evolving requirements or ongoing development needs.</li>
+              <li>Retainer: For long-term partnerships and dedicated development resources.</li>
+            </ul>
+          
+      </div>
+      <div className="bg-orange-400  text-black p-6 relative">
+        <div className=" lg:pt-8 absolute top-4 right-4 text-2xl">1</div>
+        <h2 className="lg:pt-8 text-2xl font-bold mb-4 ">Sketches</h2>
+        <p className=''>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
+      </div>
+      <div className="bg-gray-200 text-black p-6 relative">
+        <div className="lg:pt-8 absolute top-4 right-4 text-2xl ">2</div>
+        <h2 className="lg:pt-8 text-2xl font-bold mb-4 ">Illustrations</h2>
+        <p>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
+      </div>
+    </div>
+    <div className="m-8 grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      <div className="bg-gray-200 text-black p-6 relative">
+        <div className="absolute top-4 right-4 text-2xl">3</div>
+        <h2 className="text-2xl font-bold mb-4">Renders</h2>
+        <p>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
+      </div>
+      <div className="bg-orange-400 text-black p-6 relative">
+        <div className="absolute top-4 right-4 text-2xl">4</div>
+        <h2 className="text-2xl font-bold mb-4">3D Art</h2>
+        <p>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
       </div>
     </div>
   </div>
@@ -452,88 +291,8 @@ function MobileApp() {
       </div>
     </div>
   </section>
-  {/* Footer Section */}
-  {/* <section className="bg-white">
-    <div className="p-4 sm:p-10 m-4 sm:m-10">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-8">
-        <div className="space-y-2">
-          <a href="#" className="block text-green-600 hover:underline">
-            Home
-          </a>
-          <a href="#" className="block text-gray-600 hover:underline">
-            About
-          </a>
-          <div className="relative">
-            <a href="#" className="block text-gray-600 hover:underline">
-              Services
-            </a>
-            <svg
-              className="w-4 h-4 absolute right-0 top-1"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </div>
-          <div className="relative">
-            <a href="#" className="block text-gray-600 hover:underline">
-              Solutions
-            </a>
-            <svg
-              className="w-4 h-4 absolute right-0 top-1"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </div>
-          <a href="#" className="block text-gray-600 hover:underline">
-            Contact
-          </a>
-        </div>
-        <div className="space-y-2 text-gray-600">
-          <p>Bhopal Road,</p>
-          <p>Nasrullaganj, Sehore 466331</p>
-          <p>info@geekyness.com</p>
-          <p>+91 9755-36755</p>
-        </div>
-        <div className="space-y-2">
-          <a href="#" className="block text-gray-600 hover:underline">
-            LinkedIn
-          </a>
-          <a href="#" className="block text-gray-600 hover:underline">
-            Instagram
-          </a>
-          <a href="#" className="block text-gray-600 hover:underline">
-            Facebook
-          </a>
-          <a href="#" className="block text-gray-600 hover:underline">
-            X
-          </a>
-        </div>
-        <div>
-          <a href="#" className="block text-gray-600 hover:underline">
-            Privacy Policy
-          </a>
-        </div>
-      </div>
-      <div className="mt-8 pt-8 border-t border-gray-200 text-right text-gray-500">
-        © 2024 by GEEKYNESS
-      </div>
-    </div>
-  </section> */}
+
+  </div>
 </>
 
     </div>
