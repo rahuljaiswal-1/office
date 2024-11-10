@@ -184,7 +184,8 @@ function MobileApp() {
               <li>Time and Materials: For projects with evolving requirements or ongoing development needs.</li>
               <li>Retainer: For long-term partnerships and dedicated development resources.</li>
             </ul>
-          
+             <p>We believe in transparency and provide detailed cost estimates upfront, ensuring 
+                there are no surprises along the way.</p>
       </div>
       <div className="bg-orange-400  text-black p-6 relative">
         <div className=" lg:pt-8 absolute top-4 right-4 text-2xl">1</div>

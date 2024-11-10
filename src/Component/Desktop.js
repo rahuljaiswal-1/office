@@ -42,7 +42,7 @@ function Desktop() {
         <li>User-friendly interface design and development</li>
       </ul>
     </div>
-    <div className="bg-orange-400 text-white p-8 rounded-lg">
+    <div className="bg-orange-400 text-black p-8 rounded-lg">
       <div className="flex items-center mb-4">
         <i className="fas fa-sun text-2xl" />
       </div>
@@ -73,7 +73,7 @@ function Desktop() {
   </div>
   <div className="flex justify-center py-16">
     <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
-      <div className="bg-orange-400 text-white p-8 rounded-lg w-full md:w-96">
+      <div className="bg-orange-400 text-black p-8 rounded-lg w-full md:w-96">
         <div className="flex items-center mb-4">
           <i className="fas fa-sun text-2xl" />
         </div>
@@ -273,50 +273,26 @@ function Desktop() {
       </div>
     </div>
   </div>
-  <div className="container mx-auto py-8">
-    <h1 className="m-8 text-3xl font-serif font-bold mb-6">Pricing</h1>
-    <div className="m-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div className="container bg-gray-100 mx-auto py-8">
+    <h1 className="m-12 text-3xl font-serif font-bold mb-6">Pricing</h1>
+    <div className="m-12 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
-        <ol className="list-decimal list-inside space-y-4">
-          <li>
-            <strong>Starter Package</strong>
+        <p> At Geekyness, we understand that every project is unique, and our
+           pricing model reflects that. We offer flexible pricing options tailored
+           to your specific needs, including:</p>
+          
             <ul className="list-disc list-inside ml-4">
-              <li>Basic AI implementation</li>
-              <li>1-2 AI models</li>
-              <li>Limited data processing</li>
-              <li>Starting at $10,000</li>
+              <li>Fixed Price: For projects with well-defined requirements and scope.</li>
+              <li>Time and Materials: For projects with evolving requirements or ongoing development needs.</li>
+              <li>Retainer: For long-term partnerships and dedicated development resources.</li>
             </ul>
-          </li>
-          <li>
-            <strong>Professional Package</strong>
-            <ul className="list-disc list-inside ml-4">
-              <li>Advanced AI solutions</li>
-              <li>3-5 custom AI models</li>
-              <li>Moderate data processing capabilities</li>
-              <li>Starting at $25,000</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Enterprise Package</strong>
-            <ul className="list-disc list-inside ml-4">
-              <li>Comprehensive AI ecosystem</li>
-              <li>Multiple custom AI models and integrations</li>
-              <li>Large-scale data processing</li>
-              <li>Starting at $50,000</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Custom Solutions</strong>
-            <p>
-              Tailored pricing based on project complexity, data volume, and
-              specific requirements.
-            </p>
-          </li>
-        </ol>
+          <p>We believe in transparency and provide detailed cost estimates upfront, ensuring there
+             are no surprises along the way.
+          </p>
       </div>
       <div className="bg-orange-400  text-black p-6 relative">
-        <div className=" lg:pt-28 absolute top-4 right-4 text-2xl">1</div>
-        <h2 className="lg:pt-28 text-2xl font-bold mb-4 ">Sketches</h2>
+        <div className=" lg:pt-8 absolute top-4 right-4 text-2xl">1</div>
+        <h2 className="lg:pt-8 text-2xl font-bold mb-4 ">Sketches</h2>
         <p className=''>
           Share information on a previous project here to attract new clients.
           Provide a brief summary to help visitors understand the context and
@@ -325,8 +301,8 @@ function Desktop() {
         </p>
       </div>
       <div className="bg-gray-200 text-black p-6 relative">
-        <div className="lg:pt-28 absolute top-4 right-4 text-2xl ">2</div>
-        <h2 className="lg:pt-28 text-2xl font-bold mb-4 ">Illustrations</h2>
+        <div className="lg:pt-8 absolute top-4 right-4 text-2xl ">2</div>
+        <h2 className="lg:pt-8 text-2xl font-bold mb-4 ">Illustrations</h2>
         <p>
           Share information on a previous project here to attract new clients.
           Provide a brief summary to help visitors understand the context and

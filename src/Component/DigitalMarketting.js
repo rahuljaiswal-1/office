@@ -242,7 +242,7 @@ function DigitalMarketting() {
     </div>
   </div>
   {/* Horizontal line to separate case studies */}
-  <div className="ml-10 shadow-md container mx-auto my-6 p-6 slide-left">
+  <div className="lg:ml-10 shadow-md container mx-auto my-6 p-6 slide-left md:ml-28">
     <h2 className=" text-xl md:text-2xl font-serif   font-bold mb-4">
       Customer Service Evolution: Intelligent Chatbot
     </h2>

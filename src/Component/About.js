@@ -50,27 +50,25 @@ function About() {
           </div>
         </div>
         <div>
-          <section className="font-serif">
-            {/* Approach Section */}
-            <div className="bg-orange-400 p-2 sm:p-28 rounded-t-lg">
-              <h2 className="text-xl sm:text-2xl mb-4">Our Approach</h2>
-              <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
-                {/* Icon, visible only on larger screens */}
-                <div className="hidden sm:block w-1/4">
-                <div className='m-4 text-9xl'>              
-                    <BiLogoReact />
-                    
-                </div>
-
-                </div>
-                {/* Text Content */}
-                <p className="animate-down-to-up text-base sm:text-2xl w-full sm:w-3/4">
-                  <div className='md:ml-64 mb-10'>
-                  At Geekyness, our approach is rooted in understanding your unique needs and delivering customized digital solutions. We combine innovation with industry best practices to create scalable, secure, and impactful outcomes for your business. Our team collaborates closely with you, ensuring transparency and alignment with your goals at every step. From initial consultation to project completion, we focus on building lasting partnerships that drive continuous growth and success.
-                  </div>
-                </p>
-                
-              </div>
+        <section className="font-serif">
+    {/* Approach Section */}
+    <div className="bg-orange-400 p-4 md:p-8 lg:p-12 rounded-t-lg">
+      <h2 className="text-xl md:text-2xl lg:text-3xl mb-4">Our Approach</h2>
+      <section className="flex flex-col md:flex-row items-start space-y-4 md:space-y-0 md:space-x-6">
+        {/* Icon, visible only on larger screens */}
+        <div className="hidden md:block w-full md:w-1/4">
+          <div className="m-4 text-7xl lg:text-9xl">
+            <BiLogoReact />
+          </div>
+        </div>
+        {/* Text Content */}
+        <div className="w-full md:w-3/4">
+          <p className="animate-down-to-up text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose">
+            At Geekyness, our approach is rooted in understanding your unique needs and delivering customized digital solutions. We combine innovation with industry best practices to create scalable, secure, and impactful outcomes for your business. Our team collaborates closely with you, ensuring transparency and alignment with your goals at every step. From initial consultation to project completion, we focus on building lasting partnerships that drive continuous growth and success.
+          </p>
+        </div>
+      </section>
+   
             </div>
             {/* Numbers Section */}
             <div className="bg-gray-200 p-6 sm:p-8 rounded-b-lg">
