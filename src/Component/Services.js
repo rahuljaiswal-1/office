@@ -1,4 +1,9 @@
 import React from 'react'
+import { BsFillGridFill } from "react-icons/bs";
+import { LiaBroadcastTowerSolid } from "react-icons/lia";
+import { LiaAtomSolid } from "react-icons/lia";
+import { TbDeviceMobileBolt } from "react-icons/tb";
+import { AiFillBug } from "react-icons/ai";
 
 function Services() {
   return (
@@ -13,12 +18,13 @@ function Services() {
         "\n          /* Text Animation */\n          .animate-text {\n            white-space: nowrap;\n            overflow: hidden;\n            width: 0;\n            animation: animate-text 5s forwards;\n          }\n        \n          @keyframes animate-text {\n            0% {\n              width: 0;\n            }\n            100% {\n              width: 100%;\n            }\n          }\n        \n          /* Slide-left Animation */\n          .slide-left {\n            opacity: 0;\n            transform: translateX(-100px);\n            animation: slideRight 1.2s forwards;\n          }\n        \n          @keyframes slideRight {\n            to {\n              opacity: 1;\n              transform: translateX(0);\n            }\n          }\n        \n          /* Responsive Heading and Paragraph for Mobile */\n          @media (max-width: 640px) {\n            .mobile-slide-left {\n              opacity: 0;\n              transform: translateX(-30px);\n              animation: slideMobile 1.2s forwards;\n            }\n        \n            @keyframes slideMobile {\n              to {\n                opacity: 1;\n                transform: translateX(0);\n              }\n            }\n        \n            /* Font-size adjustments for mobile */\n            h1 {\n              font-size: 2.5rem; /* Smaller heading size on mobile */\n            }\n        \n            p {\n              font-size: 0.875rem; /* Smaller paragraph size */\n            }\n          }\n        \n          /* Larger screen adjustments */\n          @media (min-width: 641px) {\n            h1 {\n              font-size: 3.5rem; /* Medium heading size */\n            }\n        \n            p {\n              font-size: 1rem; /* Medium paragraph size */\n            }\n          }\n        \n          @media (min-width: 1024px) {\n            h1 {\n              font-size: 4.5rem; /* Larger heading size for desktops */\n            }\n        \n            p {\n              font-size: 1.125rem; /* Larger paragraph size */\n            }\n          }\n     "
     }}
   />
-  <div className="max-w-4xl mx-auto py-16 px-4 md:px-6 lg:px-8">
-    <h1 className="text-7xl questrial sans-serif mb-8 slide-left">Service</h1>
-    <p className="slide-left paragraph-responsive text-xs sm:text-lg lg:text-[20px] mb-4 sm:mb-6 mobile-slide-left">
-      This is the space to introduce the Services section. Briefly describe the
+  <div className="max-w-4xl  py-16 px-4 md:px-6 ml-6 lg:px-8">
+    <h1 className="text-7xl questrial sans-serif mb-2 slide-left font-normal ">Services</h1>
+    <h2 className="text-3xl mt-4 mb-4 slide-left">Helping you make the right decision.</h2>
+    <p className="slide-left paragraph-responsive font-normal text-xs sm:text-lg lg:text-[20px] mb-4 sm:mb-6 mobile-slide-left">
+      This is the space to introduce the Services section. Briefly describe the<br/>
       <span className="slide-left text-yellow-600 slideRight animate-text">
-        types of <br />
+        types of 
         services offered
       </span>{" "}
       and highlight any special benefits or features.
@@ -28,30 +34,18 @@ function Services() {
     id="section1"
     className="flex flex-col md:flex-row max-w-6xl mx-auto rounded-3xl bg-orange-400"
   >
-    <div className="flex flex-col md:flex-row rounded-3xl overflow-hidden">
+    <div className="flex flex-col md:flex-row rounded-3xl overflow-hidden ">
       {/* Text Section */}
       <div className="md:w-1/2 bg-orange-400 p-8">
-        <svg viewBox="0 0 24 24" className="w-12 h-12 mb-6">
-          <circle
-            cx={12}
-            cy={12}
-            r={10}
-            stroke="currentColor"
-            strokeWidth={2}
-            fill="none"
-          />
-          <path
-            d="M12 2 L12 22 M2 12 L22 12"
-            stroke="currentColor"
-            strokeWidth={2}
-          />
-        </svg>
+      <div className='text-4xl mb-6 mt-14'>
+      <LiaBroadcastTowerSolid />
+      </div>
         <h2 className="text-4xl font-bold mb-6">Web Development</h2>
         <div className="mb-6">
           <h3 className="text-xl font-bold underline mb-2">
             Responsive Design
           </h3>
-          <p className="text-sm">
+          <p className="text-sm mr-12 font-serif ">
             In today's mobile-first world, having a website that looks great and
             works well on all devices is essential. Our responsive design
             services ensure that your website adapts seamlessly to any screen
@@ -63,7 +57,7 @@ function Services() {
           <h3 className="text-xl font-bold underline mb-2">
             E-Commerce Solutions
           </h3>
-          <p className="text-sm">
+          <p className="text-sm mr-12 font-serif ">
             We build robust and secure e-commerce platforms tailored to your
             business needs. From setting up online stores to integrating payment
             gateways, we ensure your customers have a smooth and enjoyable
@@ -75,7 +69,7 @@ function Services() {
           <h3 className="text-xl font-bold underline mb-2">
             Custom Web Applications
           </h3>
-          <p className="text-sm">
+          <p className="text-sm mr-12 font-serif ">
             When off-the-shelf solutions don't meet your needs, we create custom
             web applications that do. Our development team uses the latest
             technologies to build feature-rich, scalable, and secure web
@@ -111,20 +105,13 @@ function Services() {
       </div>
       {/* Text Section */}
       <div className="md:w-1/2 p-8">
-        <svg viewBox="0 0 24 24" className="w-8 h-8 mb-4">
-          <path
-            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        <div className='text-4xl mb-6 mt-14'>
+        <TbDeviceMobileBolt />
+        </div>
         <h2 className="text-4xl font-bold mb-6">Mobile App Development</h2>
         <div className="mb-6">
           <h3 className="text-xl font-bold underline mb-2">iOS Apps</h3>
-          <p className="text-sm">
+          <p className="text-sm mr-12 font-serif">
             Our team of skilled developers creates intuitive and engaging iOS
             apps that meet Apple's high standards. Whether you need a consumer
             app or an enterprise solution, we ensure your app provides a
@@ -134,7 +121,7 @@ function Services() {
         </div>
         <div className="mb-6">
           <h3 className="text-xl font-bold underline mb-2">Android Apps</h3>
-          <p className="text-sm">
+          <p className="text-sm mr-12 font-serif">
             We design and develop Android apps that work flawlessly across the
             vast ecosystem of Android devices. Our focus is on creating
             user-friendly, innovative apps that stand out in the crowded Google
@@ -147,7 +134,7 @@ function Services() {
           <h3 className="text-xl font-bold underline mb-2">
             Cross-Platform Apps
           </h3>
-          <p className="text-sm">
+          <p className="text-sm mr-12 font-serif">
             To reach the widest audience, we offer cross-platform app
             development. This approach allows you to launch your app on both iOS
             and Android platforms simultaneously, saving time and resources
@@ -165,44 +152,17 @@ function Services() {
     className="flex flex-col md:flex-row max-w-6xl mx-auto rounded-3xl bg-orange-400"
   >
     <div className="md:w-1/2 p-8">
-      <div className="mb-6">
-        <svg
-          className="w-12 h-12 text-black"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2L2 7L12 12L22 7L12 2Z"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M2 17L12 22L22 17"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M2 12L12 17L22 12"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+      <div className="mb-6 text-4xl mt-14">
+      <BsFillGridFill/>
       </div>
       <h2 className="text-3xl font-bold text-black mb-6">
         Desktop App Development
       </h2>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold text-black mb-2">
+        <h3 className="text-xl font-bold underline text-black mb-2">
           Windows Applications
         </h3>
-        <p className="text-black">
+        <p className="text-black text-sm font-serif mr-12">
           We develop powerful and efficient desktop applications for Windows,
           tailored to your specific business requirements. Whether you need a
           simple utility or a complex enterprise solution, our Windows apps are
@@ -210,10 +170,10 @@ function Services() {
         </p>
       </div>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold text-black mb-2">
+        <h3 className="text-xl font-bold underline text-black mb-2">
           macOS Applications
         </h3>
-        <p className="text-black">
+        <p className="text-black text-sm font-serif mr-12">
           Our team creates elegant and robust macOS applications that leverage
           the full power of Apple's desktop operating system. We ensure your app
           integrates smoothly with macOS features, providing a seamless
@@ -221,10 +181,10 @@ function Services() {
         </p>
       </div>
       <div>
-        <h3 className="text-xl font-semibold text-black mb-2">
+        <h3 className="text-xl font-bold underline text-black mb-2">
           Linux Applications
         </h3>
-        <p className="text-black">
+        <p className="text-black text-sm font-serif mr-12">
           For businesses that rely on Linux, we offer custom desktop application
           development that caters to this versatile operating system. Our Linux
           apps are designed to be secure, scalable, and compatible with a
@@ -257,52 +217,25 @@ function Services() {
       />
     </div>
     <div className="md:w-1/2 p-8">
-      <div className="mb-6">
-        <svg
-          className="w-8 h-8 text-gray-800"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2L2 7L12 12L22 7L12 2Z"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M2 17L12 22L22 17"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M2 12L12 17L22 12"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+      <div className="mb-6 text-4xl mt-14">
+       <AiFillBug/>
       </div>
       <h2 className="text-3xl font-bold text-gray-800 mb-6">AI Solutions</h2>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold text-gray-800 mb-2 underline">
+        <h3 className="text-xl font-bold text-gray-800 mb-2 underline">
           Machine Learning
         </h3>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-sm font-serif mr-12">
           Harness the power of machine learning to gain insights and improve
           decision-making. Our machine learning solutions can help you predict
           trends, automate processes, and enhance customer experiences.
         </p>
       </div>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold text-gray-800 mb-2 underline">
+        <h3 className="text-xl font-bold text-gray-800 mb-2 underline">
           Data Analytics
         </h3>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-sm font-serif mr-12">
           Transform your data into actionable insights with our data analytics
           services. We use advanced analytics tools and techniques to help you
           understand your data, uncover patterns, and make informed business
@@ -310,10 +243,10 @@ function Services() {
         </p>
       </div>
       <div>
-        <h3 className="text-xl font-semibold text-gray-800 mb-2 underline">
+        <h3 className="text-xl font-bold text-gray-800 mb-2 underline">
           AI-Powered Automation
         </h3>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-sm font-serif mr-12">
           Increase efficiency and reduce costs with AI-powered automation. From
           chatbots to robotic process automation (RPA), we develop solutions
           that automate routine tasks, freeing up your team to focus on more
@@ -330,52 +263,26 @@ function Services() {
     className="flex flex-col md:flex-row max-w-6xl mx-auto rounded-3xl bg-orange-400"
   >
     <div className="md:w-1/2 p-8">
-      <div className="mb-6">
-        <svg
-          className="w-12 h-12 text-black"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2L2 7L12 12L22 7L12 2Z"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M2 17L12 22L22 17"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M2 12L12 17L22 12"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+      <div className="mb-6 text-4xl mt-14">
+      <LiaAtomSolid/>
       </div>
       <h2 className="text-4xl font-bold text-black mb-6">Digital Marketing</h2>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold text-black mb-2 underline">
+        <h3 className="text-xl font-bold text-black mb-2 underline">
           Search Engine Marketing (SEM)
         </h3>
-        <p className="text-black">
+        <p className="text-black text-sm font-serif mr-12">
           Maximize your ROI with targeted SEM campaigns. Our team creates and
           manages pay-per-click (PPC) advertising campaigns on platforms like
-          Google Ads to drive immediate traffic and conversions.
+          Google Ads to drive immediate traffic and conversions. maintaining high performance and native-like user experiences.
+        
         </p>
       </div>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold text-black mb-2 underline">
+        <h3 className="text-xl font-bold text-black mb-2 underline">
           Social Media Marketing
         </h3>
-        <p className="text-black">
+        <p className="text-black text-sm font-serif mr-12">
           Engage with your audience and build your brand on social media. We
           create and execute social media strategies that increase your reach,
           foster engagement, and generate leads across platforms like Facebook,
@@ -383,10 +290,10 @@ function Services() {
         </p>
       </div>
       <div>
-        <h3 className="text-xl font-semibold text-black mb-2 underline">
+        <h3 className="text-xl font-bold text-black mb-2 underline">
           Content Marketing
         </h3>
-        <p className="text-black">
+        <p className="text-black text-sm font-serif mr-12">
           Attract and retain customers with high-quality content. Our content
           marketing services include content creation, distribution, and
           strategy development to ensure your message resonates with your target
