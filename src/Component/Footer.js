@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div>
-       <section className="bg-white py-8 px-4 sm:px-6 lg:px-8">
+  <div>
+  <section className="bg-white py-8 px-4 sm:px-6 lg:px-8">
   <div className="max-w-7xl mx-auto">
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
       <div className="space-y-2">
-        <Link to="/homee" className="block text-green-600 hover:underline">
+        <Link to="/" className="block text-green-600 hover:underline">
           Home
         </Link>
         <Link to="/about" className="block text-gray-600 hover:underline">

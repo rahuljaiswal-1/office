@@ -221,7 +221,7 @@ function Home1() {
         </ol>
       </div>
       <div className="bg-orange-400  text-black p-6 relative">
-        <div className=" lg:pt-28 absolute top-4 right-4 text-2xl">1</div>
+        <div className=" lg:pt-21 absolute top-4 right-4 text-2xl">1</div>
         <h2 className="lg:pt-10 text-2xl font-bold mb-4 ">Sketches</h2>
         <p className=''>
           Share information on a previous project here to attract new clients.

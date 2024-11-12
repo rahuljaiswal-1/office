@@ -12,18 +12,18 @@ function Solution() {
   
   <section className="bg-gray-100">
   <div className="max-w-4xl mx-auto py-8 px-4 sm:py-16 sm:px-6">
-    <h2 className="animate-text text-2xl sm:text-3xl md:text-[50px] font-bold mb-4 text-center sm:text-left">
+    <h2 className="animate-text font-serif text-2xl sm:text-3xl md:text-[50px] font-bold mb-4 text-center sm:text-left">
       Our Solutions
     </h2>
-    <p className="animate-text text-lg sm:text-xl md:text-2xl font-medium mb-4 text-center sm:text-left">
+    <p className="animate-text font-serif text-lg sm:text-xl md:text-2xl font-medium mb-4 text-center sm:text-left">
       Helping you make the right decision.
     </p>
-    <p className="animate-text text-base sm:text-lg md:text-xl max-w-2xl text-center sm:text-left">
+    <p className="animate-text font-serif text-base sm:text-lg md:text-xl max-w-2xl text-center sm:text-left">
       This is the space to introduce the Services
       <br className="block sm:hidden" /> section. Briefly describe the
       <br />
       types of services offered and highlight any
-      <br className="block sm:hidden" /> special benefits or features.
+      <br className="block sm:hidden font-serif " /> special benefits or features.
     </p>
   </div>
 </section>
@@ -33,19 +33,19 @@ function Solution() {
     <div className="container mx-auto px-4">
       <div className="m-8 grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-orange-400 rounded-lg p-6 text-center shadow-md">
-          <h3 className="text-2xl font-semibold">Web Development</h3>
+          <h3 className="font-serif text-2xl font-semibold">Web Development</h3>
         </div>
         <div className="bg-orange-400 rounded-lg p-6 text-center shadow-md">
-          <h3 className="text-2xl font-semibold">Mobile App Development</h3>
+          <h3 className="font-serif text-2xl font-semibold">Mobile App Development</h3>
         </div>
         <div className="bg-orange-400 rounded-lg p-6 text-center shadow-md">
-          <h3 className="text-2xl font-semibold">Desktop App Development</h3>
+          <h3 className="font-serif text-2xl font-semibold">Desktop App Development</h3>
         </div>
         <div className="bg-orange-400 rounded-lg p-6 text-center shadow-md">
-          <h3 className="text-2xl font-semibold">AI Solutions</h3>
+          <h3 className="font-serif text-2xl font-semibold">AI Solutions</h3>
         </div>
         <div className="bg-orange-400 rounded-lg p-6 text-center shadow-md md:col-span-2">
-          <h3 className="text-2xl font-semibold">Digital Marketing</h3>
+          <h3 className="font-serif text-2xl font-semibold">Digital Marketing</h3>
         </div>
       </div>
     </div>
@@ -76,9 +76,9 @@ function Solution() {
           strokeLinejoin="round"
         />
       </svg>
-      <h2 className="text-3xl font-bold text-center mb-2">Web Development</h2>
+      <h2 className="font-serif  text-3xl font-bold text-center mb-2">Web Development</h2>
     </div>
-    <p className="text-center mb-6">
+    <p className="font-serif text-center mb-6">
       Transform your online presence with our custom web development services.
     </p>
     <div className="space-y-4">
@@ -91,11 +91,11 @@ function Solution() {
         <p>React, Node.js, Python, PHP, .NET</p>
       </div>
       <div>
-        <h3 className="font-semibold text-xl">Process</h3>
+        <h3 className="font-serif font-semibold text-xl">Process</h3>
         <p>Discovery, Design, Development, Testing, Deployment, Maintenance</p>
       </div>
       <div>
-        <h3 className="font-semibold text-xl">Pricing</h3>
+        <h3 className=" font-serif font-semibold text-xl">Pricing</h3>
         <ul className="list-disc pl-5">
           <li>Basic Website: $5,000 - $10,000</li>
           <li>E-commerce Site: $10,000 - $25,000</li>
