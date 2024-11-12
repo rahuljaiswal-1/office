@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 function Home1() {
   return (
@@ -7,13 +6,13 @@ function Home1() {
      <meta charSet="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <title>Web Development</title>
-    
-     
-     <div className="container mx-auto p-8">
-       <h1 className="text-4xl md:text-6xl font-bold text-start mb-12">
+
+
+     <div className="container font-serif mx-auto p-8">
+       <h1 className="text-4xl sm:flex-row md:text-7xl font-semibold lg:ml-20 mt-20 text-start mb-12">
          Web Development
        </h1>
-       <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
+       <div className="flex flex-col md:flex-row pt-12 justify-center space-y-8 md:space-y-0 md:space-x-8">
          <div className="bg-gray-200 p-8 rounded-3xl w-full md:w-1/3">
            <h2 className="text-xl md:text-2xl font-bold mb-4">
              Responsive Design
@@ -66,7 +65,7 @@ function Home1() {
            className="w-full h-full object-cover filter grayscale"
          />
        </div>
-       <div className="w-full md:w-1/2 h-120 bg-orange-400 rounded-3xl p-4 md:p-8 text-black">
+       <div className="w-full md:w-1/2 h-120 font-serif p-16 bg-orange-400 rounded-3xl p-4 md:p-8 text-black">
          <h2 className="text-2xl md:text-4xl font-bold mb-2">
            Custom Web Applications
          </h2>
@@ -76,11 +75,6 @@ function Home1() {
            to build feature-rich, scalable, and secure web applications that align
            perfectly with your business objectives.
          </p>
-         <Link to="/solution">
-           <button className="border border-black rounded-full px-4 md:px-6 py-2 hover:bg-black hover:text-orange-400 transition duration-300">
-             Check Our Solutions
-           </button>
-         </Link>
        </div>
        <div data-testid="responsive-container-content" className="w-full md:w-1/4">
          <div
@@ -107,12 +101,7 @@ function Home1() {
          </div>
        </div>
      </section>
-     <style
-       dangerouslySetInnerHTML={{
-         __html:
-           "\n    .animate-hide-to-show {\n      opacity: 0;\n      transition: opacity 5s ease-out;\n    }\n\n    .show {\n      opacity: 1;\n    }\n\n    @keyframes hide-to-show {\n      0% {\n        opacity: 0;\n      }\n\n      100% {\n        opacity: 1;\n      }\n    }\n  "
-       }}
-     />
+
      <section className="animate-hide-to-show container mx-auto px-4 py-16 w-full bg-gray-100">
        <h2 className="text-4xl font-bold mb-12">Introduction</h2>
        <div className="space-y-8">
@@ -127,7 +116,7 @@ function Home1() {
          </p>
        </div>
      </section>
-     <div className="bg-white">
+     <div className="bg-white font-serif">
        <div className="flex flex-wrap justify-center p-4">
          <div className="w-full md:w-1/2 lg:w-1/3 p-2 md:p-4">
            <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
@@ -213,91 +202,68 @@ function Home1() {
          </div>
        </div>
      </div>
-     <div className="bg-gray-100">
-       <div className="container mx-auto p-4 md:p-8">
-         <h1 className="text-xl md:text-2xl font-semibold mb-4">Pricing</h1>
-         <ul className="list-disc pl-5 mb-8">
-           <li>
-             All illustrations are customized to every project’s needs/specs, and
-             our pricing methods reflect that. We offer flexible pricing options
-             tailored to your specific needs, including:
-           </li>
-           <li>Time-based: Pricing based on the time spent on the project.</li>
-           <li>
-             Project-based: Fixed price for the entire project, regardless of time
-             spent.
-           </li>
-           <li>
-             Revisions: Pricing for any additional revisions or changes beyond the
-             initial project scope.
-           </li>
-           <li>
-             Extras: Pricing for any additional services or add-ons requested
-             during the project.
-           </li>
-           <li>
-             We believe in keeping our pricing methods detailed and structured to
-             reflect everything that you are getting along the way.
-           </li>
-         </ul>
-         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
-           <div className="transition duration-150 ease-out hover:ease-in bg-orange-400 hover:bg-orange-300 p-6 md:p-8 relative">
-             <div className="absolute top-4 left-4">
-               <div className="h-1 w-8 bg-black mb-2" />
-               <div className="h-1 w-4 bg-black" />
-             </div>
-             <h2 className="text-lg md:text-xl font-semibold mb-2">Sketches</h2>
-             <p className="text-sm mb-4">
-               Price will vary for every project based on the content and
-               background of the work. Additional details may change if more
-               material and work needs to get done.
-             </p>
-             <div className="absolute bottom-4 right-4 text-6xl font-bold">1</div>
-           </div>
-           <div className="bg-orange-400 hover:bg-orange-300 p-6 md:p-8 relative">
-             <div className="absolute top-4 left-4">
-               <div className="h-1 w-8 bg-black mb-2" />
-               <div className="h-1 w-4 bg-black" />
-             </div>
-             <h2 className="text-lg md:text-xl font-semibold mb-2">
-               Illustrations
-             </h2>
-             <p className="text-sm mb-4">
-               Price will vary for every project based on the content and
-               background of the work. Additional details may change if more
-               material and work needs to get done.
-             </p>
-             <div className="absolute bottom-4 right-4 text-6xl font-bold">2</div>
-           </div>
-           <div className="bg-orange-400 hover:bg-orange-300 p-6 md:p-8 relative">
-             <div className="absolute top-4 left-4">
-               <div className="h-1 w-8 bg-black mb-2" />
-               <div className="h-1 w-4 bg-black" />
-             </div>
-             <h2 className="text-lg md:text-xl font-semibold mb-2">Renders</h2>
-             <p className="text-sm mb-4">
-               Price will vary for every project based on the content and
-               background of the work. Additional details may change if more
-               material and work needs to get done.
-             </p>
-             <div className="absolute bottom-4 right-4 text-6xl font-bold">3</div>
-           </div>
-           <div className="bg-orange-400 hover:bg-orange-300 p-6 md:p-8 relative">
-             <div className="absolute top-4 left-4">
-               <div className="h-1 w-8 bg-black mb-2" />
-               <div className="h-1 w-4 bg-black" />
-             </div>
-             <h2 className="text-lg md:text-xl font-semibold mb-2">3D Art</h2>
-             <p className="text-sm mb-4">
-               Price will vary for every project based on the content and
-               background of the work. Additional details may change if more
-               material and work needs to get done.
-             </p>
-             <div className="absolute bottom-4 right-4 text-6xl font-bold">4</div>
-           </div>
-         </div>
-       </div>
-     </div>
+     <div className="container mx-auto py-8 bg-gray-100 font-serif">
+    <h1 className="m-8 text-3xl font-serif font-bold mb-6">Pricing</h1>
+    <div className="m-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <ol className="list-decimal list-inside space-y-4">
+            <ul className="list-disc list-inside ml-4">
+               At Geekyness, we understand that every project is unique, and our pricing model reflects that. We offer flexible pricing options tailored to your specific needs, including:
+            </ul>
+            <ul className="list-disc list-inside ml-4">
+              <li>Fixed Price: For projects with well-defined requirements and scope.</li>
+              <li>Time and Materials: For projects with evolving requirements or ongoing development needs.</li>
+              <li>Retainer: For long-term partnerships and dedicated development resources.</li>
+            <p>
+              We believe in transparency and provide detailed cost estimates upfront, ensuring there are no surprises along the way.
+            </p>
+          </ul>
+        </ol>
+      </div>
+      <div className="bg-orange-400  text-black p-6 relative">
+        <div className=" lg:pt-28 absolute top-4 right-4 text-2xl">1</div>
+        <h2 className="lg:pt-10 text-2xl font-bold mb-4 ">Sketches</h2>
+        <p className=''>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
+      </div>
+      <div className="bg-gray-200 text-black p-6 relative">
+        <div className="lg:pt-21 absolute top-4 right-4 text-2xl ">2</div>
+        <h2 className="lg:pt-10 text-2xl font-bold mb-4 ">Illustrations</h2>
+        <p>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
+      </div>
+    </div>
+    <div className="m-8 grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      <div className="bg-gray-200 text-black p-6 relative">
+        <div className="absolute top-4 right-4 text-2xl">3</div>
+        <h2 className="text-2xl font-bold mb-4">Renders</h2>
+        <p>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
+      </div>
+      <div className="bg-orange-400 text-black p-6 relative">
+        <div className="absolute top-4 right-4 text-2xl">4</div>
+        <h2 className="text-2xl font-bold mb-4">3D Art</h2>
+        <p>
+          Share information on a previous project here to attract new clients.
+          Provide a brief summary to help visitors understand the context and
+          background of the work. Add details about why this project was created
+          and what makes it significant.
+        </p>
+      </div>
+    </div>
+  </div>
      <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
        <div className="max-w-7xl mx-auto">
          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
@@ -358,9 +324,9 @@ function Home1() {
          </div>
        </div>
      </section>
-    
+
    </>
-   
+
   )
 }
 

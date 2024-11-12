@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-  /** Router */
+  /** React Router */
   <Router>
     <Navbar />
     <Routes>
@@ -31,7 +31,7 @@ function App() {
     <Route path="/mobileapp" element={<MobileApp/>} />
     <Route path="/digitalmarketting" element={<DigitalMarketting/>} />
     </Routes>
- 
+
     {/* <MobileApp/> */}
     {/* <Desktop/> */}
     {/* <DigitalMarketting/> */}
