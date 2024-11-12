@@ -1,4 +1,9 @@
 import React from 'react'
+import { BsFillGridFill } from "react-icons/bs";
+import { LiaBroadcastTowerSolid, LiaDigitalOcean } from "react-icons/lia";
+import { LiaAtomSolid } from "react-icons/lia";
+import { TbDeviceMobileBolt } from "react-icons/tb";
+import { AiFillBug } from "react-icons/ai";
 
 function Solution() {
   return (
@@ -12,13 +17,13 @@ function Solution() {
   
   <section className="bg-gray-100">
   <div className="max-w-4xl mx-auto py-8 px-4 sm:py-16 sm:px-6">
-    <h2 className="animate-text text-2xl sm:text-3xl md:text-[50px] font-bold mb-4 text-center sm:text-left">
+    <h2 className="animate-text text-2xl sm:text-3xl md:text-[50px] font-serif font-bold mb-4 text-center sm:text-left">
       Our Solutions
     </h2>
-    <p className="animate-text text-lg sm:text-xl md:text-2xl font-medium mb-4 text-center sm:text-left">
+    <p className="animate-text text-lg font-serif sm:text-xl md:text-2xl font-medium mb-4 text-center sm:text-left">
       Helping you make the right decision.
     </p>
-    <p className="animate-text text-base sm:text-lg md:text-xl max-w-2xl text-center sm:text-left">
+    <p className="font-serif animate-text text-base sm:text-lg md:text-xl max-w-2xl text-center sm:text-left">
       This is the space to introduce the Services
       <br className="block sm:hidden" /> section. Briefly describe the
       <br />
@@ -29,7 +34,7 @@ function Solution() {
 </section>
 
  
-  <section className="bg-gray-100 py-16">
+  <section className="bg-gray-100 font-serif font-normal py-16">
     <div className="container mx-auto px-4">
       <div className="m-8 grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-orange-400 rounded-lg p-6 text-center shadow-md">
@@ -59,23 +64,12 @@ function Solution() {
   <br />
   <section
     id="section6"
-    className="bg-gray-200 p-8 rounded-3xl max-w-3xl mx-auto text-gray-800"
+    className="bg-gray-200 font-serif p-8 rounded-3xl max-w-3xl mx-auto text-gray-800"
   >
     <div className="mb-6">
-      <svg
-        className="w-12 h-12 mx-auto mb-2"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 2L14.5 9.5H22L16 14.5L18.5 22L12 17L5.5 22L8 14.5L2 9.5H9.5L12 2Z"
-          stroke="currentColor"
-          strokeWidth={2}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <div className='text-4xl pl-80 mb-3'>
+        <LiaBroadcastTowerSolid/>
+      </div>
       <h2 className="text-3xl font-bold text-center mb-2">Web Development</h2>
     </div>
     <p className="text-center mb-6">
@@ -114,23 +108,13 @@ function Solution() {
   <br />
   <section
     id="section7"
-    className="bg-orange-400 p-8 rounded-3xl max-w-3xl mx-auto text-gray-800"
+    className="bg-orange-400 font-serif p-8 rounded-3xl max-w-3xl mx-auto text-gray-800"
   >
     <div className="mb-6">
-      <svg
-        className="w-12 h-12 mx-auto mb-2"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 2L14.5 9.5H22L16 14.5L18.5 22L12 17L5.5 22L8 14.5L2 9.5H9.5L12 2Z"
-          stroke="currentColor"
-          strokeWidth={2}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <div className='text-4xl pl-80 mb-3'>
+        <TbDeviceMobileBolt/>
+
+      </div>
       <h2 className="text-3xl font-bold text-center mb-2">
         Mobile App Development
       </h2>
@@ -172,31 +156,25 @@ function Solution() {
   <br />
   <section
     id="section8"
-    className=" rounded-3xl bg-gray-200 p-8 max-w-3xl mx-auto"
+    className="font-serif rounded-3xl bg-gray-200 p-8 max-w-3xl mx-auto"
   >
     <div className="text-center mb-8">
-      <svg
-        className="w-16 h-16 mx-auto mb-4"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 2L14.5 9.5H22L16 14.5L18.5 22L12 17L5.5 22L8 14.5L2 9.5H9.5L12 2Z"
-          stroke="currentColor"
-          strokeWidth={2}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+    <div className='text-4xl pl-80 mb-3'>
+        <BsFillGridFill/>
+
+      </div>
       <h1 className="text-3xl font-bold mb-2">Desktop App Development</h1>
       <p className="text-gray-600">
         Boost productivity with tailored desktop software solutions.
       </p>
     </div>
     <div className="mb-6">
+      
+      
       <h2 className="text-xl font-semibold mb-2">Platforms</h2>
-      <p>Windows, macOS, Linux</p>
+      <p>Windows <div className=''>
+
+      </div>, macOS, Linux</p>
     </div>
     <div className="mb-6">
       <h2 className="text-xl font-semibold mb-2">Technologies</h2>
@@ -223,23 +201,11 @@ function Solution() {
   <br />
   <section
     id="section9"
-    className="bg-orange-400 p-8 rounded-3xl max-w-3xl mx-auto text-gray-800"
+    className="bg-orange-400 p-8 font-serif rounded-3xl max-w-3xl mx-auto text-gray-800"
   >
     <div className="text-center mb-8">
-      <svg
-        className="w-16 h-16 mx-auto mb-4"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 2L14 7L19 7L15 11L17 16L12 13L7 16L9 11L5 7L10 7L12 2Z"
-          stroke="currentColor"
-          strokeWidth={2}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <div className='text-4xl pl-80 mb-3'><AiFillBug/></div>
+    
       <h1 className="text-4xl font-bold mb-2">AI Solutions</h1>
       <p className="text-xl">
         Harness the power of AI to drive innovation and efficiency.
@@ -279,23 +245,12 @@ function Solution() {
   <br />
   <section
     id="section10"
-    className="bg-gray-200 rounded-3xl p-8 max-w-3xl mx-auto text-gray-800"
+    className="bg-gray-200 rounded-3xl font-serif p-8 max-w-3xl mx-auto text-gray-800"
   >
     <div className="text-center b-8">
-      <svg
-        className="w-16 h-16 mb-4 mx-auto"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 2L14 7L19 7L15 11L17 16L12 13L7 16L9 11L5 7L10 7L12 2Z"
-          stroke="currentColor"
-          strokeWidth={2}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <div className='text-4xl pl-80 mb-3'>
+        <LiaAtomSolid/>
+      </div>
       <h1 className="text-3xl font-bold mb-2">Digital Marketing Services</h1>
       <p className="text-lg">
         Amplify your online presence and reach your target audience effectively.
