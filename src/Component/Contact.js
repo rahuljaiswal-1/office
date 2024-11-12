@@ -8,9 +8,9 @@ export default function Contact() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Geekyness - Your Partner in Innovative Web Solutions</title>
   <link href="./output.css" rel="stylesheet" />
-  
-  <section className="max-w-4xl mx-auto p-6">
-    <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
+
+  <section className=" font-serif max-w-4xl mx-auto p-6">
+    <h1 className="mt-12 text-6xl  mb-8">Contact Us</h1>
     <div className="flex flex-col md:flex-row gap-8">
       {/* Contact Form */}
       <div className="flex-1 bg-orange-400 rounded-lg p-6">
@@ -191,9 +191,9 @@ export default function Contact() {
       </div>
     </div>
   </section>
-  
-  
-  
+
+
+
 </>
 
     </div>
